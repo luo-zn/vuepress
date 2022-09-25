@@ -17,6 +17,7 @@ module.exports = {
       }
     }
   },
+  base: "vuepress",
   title: 'LZN Site',
   description: '个人站点',
   head:[
