@@ -11,7 +11,7 @@ jobs:
       uses: luo-zn/vuepress-deploy@master
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        # TARGET_REPO: zn-luo/zn-luo.github.io
+        TARGET_REPO: luo-zn/vuepress
         TARGET_BRANCH: master
         NODE_OPTIONS: --openssl-legacy-provider
         BUILD_SCRIPT: npm install && npm run build
